@@ -124,7 +124,7 @@ public class Library {
 				((Librarian) persons.get(x)).modifyPay(newPay);
 				else if(persons.get(x)instanceof Employee)
 					((Employee) persons.get(x)).modifyPay(newPay);
-			}
+				}
 			}
 	}
 	
